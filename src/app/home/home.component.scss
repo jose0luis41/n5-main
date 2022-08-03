@@ -1,0 +1,30 @@
+.container{
+  margin: 60px;
+  &__title{
+    text-align: center;
+    font-family: lato;
+  }
+  &__button{
+    display: flex;
+    justify-content: center;
+    &__card{
+      display: flex;
+      justify-content: center;
+      text-align: center;
+      align-items: center;
+      height: 200px;
+      width: 200px;
+      margin-right: 30px;
+      cursor: pointer;
+      font-size: 18px;
+      font-weight: 600;
+      font-family: lato;
+      color: white;
+      background-color: #673ab7;
+    }
+    &__card:hover{
+      background-color: #D3D3D3	;
+    }
+  }
+}
+
